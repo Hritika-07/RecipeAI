@@ -237,8 +237,6 @@ ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=60
 ```
 
-> Never upload your `.env` file or API keys to GitHub.
-
 ---
 
 # 🌐 REST API
@@ -278,9 +276,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES=60
 
 ---
 
-# 🌱 Roadmap
-
-Planned improvements include:
+# Planned improvements include:
 
 - ❤️ Save favourite recipes
 - 📜 Recipe history
@@ -293,28 +289,13 @@ Planned improvements include:
 
 ---
 
-# 👋 About the Developer
+# Developer
 
 ## **Hritika Choudhary**
-
-Full Stack Developer • AI Enthusiast • Computer Science Student
+Python • FastAPI • Streamlit • Artificial Intelligence • Agentic AI • Backend Development
 
 GitHub:
 https://github.com/Hritika-07
-
----
-
-# 🤝 Contributions
-
-Contributions, suggestions, and feature requests are always welcome.
-
-If you'd like to improve RecipeAI:
-
-1. Fork the repository
-2. Create your own feature branch
-3. Commit your changes
-4. Push to your branch
-5. Open a Pull Request
 
 ---
 
