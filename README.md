@@ -1,6 +1,7 @@
 # 🍳 RecipeAI – AI-Powered Recipe Generator
 
 <div align="center">
+
 ![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -8,9 +9,10 @@
 ![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-D71F00?style=for-the-badge)
 ![JWT](https://img.shields.io/badge/JWT-Authentication-orange?style=for-the-badge)
-![Groq](https://img.shields.io/badge/Groq-Llama_3.3-purple?style=for-the-badge)
+![Groq](https://img.shields.io/badge/Groq-Llama_3.3-F55036?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
 
+</div>
 ### 🍽️ Cook Smarter with AI
 
 Generate delicious recipes from ingredients you already have using the power of **Groq Llama 3.3**, **React**, and **FastAPI**.
