@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #7c3aed;
+  --primary-hover: #6d28d9;
+
+  --bg: #f8fafc;
+  --surface: #ffffff;
+
+  --text: #111827;
+  --text-secondary: #6b7280;
+
+  --border: #e5e7eb;
+}
+
+.dark {
+  --bg: #0f172a;
+  --surface: #1e293b;
+
+  --text: #f8fafc;
+  --text-secondary: #94a3b8;
+
+  --border: #334155;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s ease;
+}
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+* {
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease;
+}
