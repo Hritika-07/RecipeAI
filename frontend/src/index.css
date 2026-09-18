@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #7c3aed;
+  --primary-hover: #6d28d9;
+
+  --bg: #f8fafc;
+  --surface: #ffffff;
+
+  --text: #111827;
+  --text-secondary: #6b7280;
+
+  --border: #e5e7eb;
+}
+
+.dark {
+  --bg: #0f172a;
+  --surface: #1e293b;
+
+  --text: #f8fafc;
+  --text-secondary: #94a3b8;
+
+  --border: #334155;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background:
+    linear-gradient(
+      rgba(5, 3, 15, 0.72),
+      rgba(5, 3, 15, 0.72)
+    ),
+    url("/backgrounds/background.png") center center / cover fixed no-repeat;
+
+  color: var(--text);
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s ease;
+  min-height: 100vh;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+#root {
+  background: transparent;
+}
+
+* {
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease;
+}
+
+/* =========================================
+   Dashboard
+   ========================================= */
+
+.dashboard-page {
+  min-height: 100vh;
+  background: transparent;
+}
+
+.dashboard-main {
+  background: transparent;
+}
+
+/* =========================================
+   Glass Cards
+   ========================================= */
+
+.dashboard-cooking-card,
+.dashboard-results,
+.dashboard-recipe {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/* =========================================
+   Responsive Background
+   ========================================= */
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+}
